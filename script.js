@@ -26,7 +26,7 @@ yesBtn.addEventListener("click", () => {
 
 // --- Next button ---
 nextBtn.addEventListener("click", () => {
-  window.location.href = "https://gifft.me/o/l/8zheq184atf3c21la6zg47c5";
+  window.location.href = "https://gifft.me/o/hm/twxim5zf3yxiavqorfbzbpcj";
 });
 
 // --- Confetti ---
@@ -84,3 +84,4 @@ window.addEventListener("resize", () => {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
 });
+
