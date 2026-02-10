@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Will You Be My Valentine? 💌</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- VALENTINE QUESTION -->
+<section class="card" id="question">
+  <p class="label">Just one question for my Zelly... 💌</p>
+
+  <h1 class="question-text">
+    Will you be my Valentine? 💘
+  </h1>
+
+  <p class="note">14-02-26 🌹</p>
+
+  <div class="buttons">
+    <button class="yes" id="yesBtn">Yes 💖</button>
+    <button class="no" id="noBtn">No 🙃</button>
+  </div>
+</section>
+
+<!-- YAY SCREEN -->
+<section class="card hidden" id="yay">
+  <h1>YIPPEE!!!💕</h1>
+  <p>You just made me really, really happy!!</p>
+
+  <button class="next" id="nextBtn">Next ➜</button>
+</section>
+
+<!-- Confetti Canvas -->
+<canvas id="confetti-canvas"></canvas>
+
+<!-- Sound -->
+<audio id="yaySound" src="yay.mp3" preload="auto"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
